@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{f0f5bf6b-5afa-eb21-b9ab-0766794d6bf1}</ProjectGuid>
+    <ProjectGuid>{05e98c2b-7db0-bb63-d3e1-679032a0471b}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -50,64 +50,73 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\3rdPlugins\FairyGUI\Examples\Editor\BuildAssetBundles.cs" />
+     <Compile Include="Assets\3rdPlugins\FairyGUI\Scripts\Editor\DisplayObjectEditor.cs" />
+     <Compile Include="Assets\3rdPlugins\FairyGUI\Scripts\Editor\EditorToolSet.cs" />
+     <Compile Include="Assets\3rdPlugins\FairyGUI\Scripts\Editor\PackagesWindow.cs" />
+     <Compile Include="Assets\3rdPlugins\FairyGUI\Scripts\Editor\StageCameraEditor.cs" />
+     <Compile Include="Assets\3rdPlugins\FairyGUI\Scripts\Editor\UIConfigEditor.cs" />
+     <Compile Include="Assets\3rdPlugins\FairyGUI\Scripts\Editor\UIContentScalerEditor.cs" />
+     <Compile Include="Assets\3rdPlugins\FairyGUI\Scripts\Editor\UIPainterEditor.cs" />
+     <Compile Include="Assets\3rdPlugins\FairyGUI\Scripts\Editor\UIPanelEditor.cs" />
      <Compile Include="Assets\Code\BDFramework.Game\Editor\BDFrameworkPublishPipelineBehaviourTest.cs" />
      <None Include="Assets\3rdPlugins\Dotween\DemiLib\Core\Editor\DemiEditor.xml" />
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.VSCode.Editor">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UI">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Timeline">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Rider.Editor">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
- </Reference>
- <Reference Include="Unity.PlasticSCM.Editor">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.UI">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="NuGet">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/ScriptAssemblies/NuGet.dll</HintPath>
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/ScriptAssemblies/NuGet.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.VSCode.Editor">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.AssetGraph.Editor">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/ScriptAssemblies/Unity.AssetGraph.Editor.dll</HintPath>
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/ScriptAssemblies/Unity.AssetGraph.Editor.dll</HintPath>
  </Reference>
  <Reference Include="ZString">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/ScriptAssemblies/ZString.dll</HintPath>
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/ScriptAssemblies/ZString.dll</HintPath>
  </Reference>
  <Reference Include="BDFramework.Editor">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/ScriptAssemblies/BDFramework.Editor.dll</HintPath>
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/ScriptAssemblies/BDFramework.Editor.dll</HintPath>
  </Reference>
  <Reference Include="ILRuntime">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/ScriptAssemblies/ILRuntime.dll</HintPath>
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/ScriptAssemblies/ILRuntime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="BDFramework.Core">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/ScriptAssemblies/BDFramework.Core.dll</HintPath>
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/ScriptAssemblies/BDFramework.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Rider.Editor">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.AssetGraph">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/ScriptAssemblies/Unity.AssetGraph.dll</HintPath>
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/ScriptAssemblies/Unity.AssetGraph.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.VisualStudio.Editor">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.PlasticSCM.Editor">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.32f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -310,92 +319,92 @@
  <Reference Include="UnityEditor.iOS.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.32f1c1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="log4netPlastic">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/PackageCache/com.unity.collab-proxy@1.12.5/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/PackageCache/com.unity.collab-proxy@1.12.5/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Plastic.Newtonsoft.Json">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/PackageCache/com.unity.collab-proxy@1.12.5/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
- </Reference>
- <Reference Include="unityplastic">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/PackageCache/com.unity.collab-proxy@1.12.5/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
- </Reference>
- <Reference Include="ServiceStack.Text">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/PackageCache/com.popo.bdframework@2.0.8-beta4.5/Nuget/ServiceStack.Text.5.12.0/lib/netstandard2.0/ServiceStack.Text.dll</HintPath>
- </Reference>
- <Reference Include="ICSharpCode.SharpZipLib">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/PackageCache/com.popo.bdframework@2.0.8-beta4.5/Editor/Plugins/Excel/ICSharpCode.SharpZipLib.dll</HintPath>
- </Reference>
- <Reference Include="System.Collections.Immutable">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/PackageCache/com.popo.bdframework@2.0.8-beta4.5/Nuget/System.Collections.Immutable.5.0.0/lib/netstandard2.0/System.Collections.Immutable.dll</HintPath>
- </Reference>
- <Reference Include="System.Buffers">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/PackageCache/com.popo.bdframework@2.0.8-beta4.5/Nuget/System.Buffers.4.5.1/lib/netstandard2.0/System.Buffers.dll</HintPath>
- </Reference>
- <Reference Include="Microsoft.Bcl.AsyncInterfaces">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/PackageCache/com.popo.bdframework@2.0.8-beta4.5/Nuget/Microsoft.Bcl.AsyncInterfaces.1.1.1/lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
- </Reference>
- <Reference Include="System.Reflection.Metadata">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/PackageCache/com.popo.bdframework@2.0.8-beta4.5/Nuget/System.Reflection.Metadata.5.0.0/lib/netstandard2.0/System.Reflection.Metadata.dll</HintPath>
- </Reference>
- <Reference Include="Microsoft.CodeAnalysis.CSharp">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/PackageCache/com.popo.bdframework@2.0.8-beta4.5/Nuget/Microsoft.CodeAnalysis.CSharp.3.11.0/lib/netstandard2.0/Microsoft.CodeAnalysis.CSharp.dll</HintPath>
- </Reference>
- <Reference Include="Excel">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/PackageCache/com.popo.bdframework@2.0.8-beta4.5/Editor/Plugins/Excel/Excel.dll</HintPath>
- </Reference>
- <Reference Include="System.Threading.Tasks.Extensions">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/PackageCache/com.popo.bdframework@2.0.8-beta4.5/Nuget/System.Threading.Tasks.Extensions.4.5.4/lib/netstandard2.0/System.Threading.Tasks.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="Microsoft.CodeAnalysis">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/PackageCache/com.popo.bdframework@2.0.8-beta4.5/Nuget/Microsoft.CodeAnalysis.Common.3.11.0/lib/netstandard2.0/Microsoft.CodeAnalysis.dll</HintPath>
- </Reference>
- <Reference Include="ILRuntime.Mono.Cecil.Pdb">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/PackageCache/com.ourpalm.ilruntime@2.0.0-preview.13/Plugins/ILRuntime.Mono.Cecil.Pdb.dll</HintPath>
- </Reference>
- <Reference Include="System.Text.Encoding.CodePages">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/PackageCache/com.popo.bdframework@2.0.8-beta4.5/Nuget/System.Text.Encoding.CodePages.4.5.1/lib/netstandard2.0/System.Text.Encoding.CodePages.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.CompilerServices.Unsafe">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/PackageCache/com.popo.bdframework@2.0.8-beta4.5/Nuget/System.Runtime.CompilerServices.Unsafe.5.0.0/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
- </Reference>
- <Reference Include="System.Memory">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/PackageCache/com.popo.bdframework@2.0.8-beta4.5/Nuget/System.Memory.4.5.4/lib/netstandard2.0/System.Memory.dll</HintPath>
- </Reference>
- <Reference Include="Debug.log">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/PackageCache/com.popo.bdframework@2.0.8-beta4.5/Plugins/Debug/Debug.log.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.Compression.ZipFile">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/PackageCache/com.popo.bdframework@2.0.8-beta4.5/3rdPlugins/NuGet/System.IO.Compression/System.IO.Compression.ZipFile.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.Compression.FileSystem">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/PackageCache/com.popo.bdframework@2.0.8-beta4.5/3rdPlugins/NuGet/System.IO.Compression/System.IO.Compression.FileSystem.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.Compression">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/PackageCache/com.popo.bdframework@2.0.8-beta4.5/3rdPlugins/NuGet/System.IO.Compression/System.IO.Compression.dll</HintPath>
- </Reference>
- <Reference Include="ILRuntime.Mono.Cecil.Mdb">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/PackageCache/com.ourpalm.ilruntime@2.0.0-preview.13/Plugins/ILRuntime.Mono.Cecil.Mdb.dll</HintPath>
- </Reference>
- <Reference Include="ILRuntime.Mono.Cecil">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/PackageCache/com.ourpalm.ilruntime@2.0.0-preview.13/Plugins/ILRuntime.Mono.Cecil.dll</HintPath>
- </Reference>
- <Reference Include="DOTweenEditor">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Assets/3rdPlugins/Dotween/DOTween/Editor/DOTweenEditor.dll</HintPath>
- </Reference>
  <Reference Include="DemiLib">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Assets/3rdPlugins/Dotween/DemiLib/Core/DemiLib.dll</HintPath>
- </Reference>
- <Reference Include="DOTween">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Assets/3rdPlugins/Dotween/DOTween/DOTween.dll</HintPath>
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Assets/3rdPlugins/Dotween/DemiLib/Core/DemiLib.dll</HintPath>
  </Reference>
  <Reference Include="DemiEditor">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Assets/3rdPlugins/Dotween/DemiLib/Core/Editor/DemiEditor.dll</HintPath>
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Assets/3rdPlugins/Dotween/DemiLib/Core/Editor/DemiEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Assets/3rdPlugins/Dotween/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenEditor">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Assets/3rdPlugins/Dotween/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="ILRuntime.Mono.Cecil">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.ourpalm.ilruntime@2.0.0-preview.13/Plugins/ILRuntime.Mono.Cecil.dll</HintPath>
+ </Reference>
+ <Reference Include="ILRuntime.Mono.Cecil.Mdb">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.ourpalm.ilruntime@2.0.0-preview.13/Plugins/ILRuntime.Mono.Cecil.Mdb.dll</HintPath>
+ </Reference>
+ <Reference Include="ILRuntime.Mono.Cecil.Pdb">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.ourpalm.ilruntime@2.0.0-preview.13/Plugins/ILRuntime.Mono.Cecil.Pdb.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.8-beta4.5/3rdPlugins/NuGet/System.IO.Compression/System.IO.Compression.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression.FileSystem">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.8-beta4.5/3rdPlugins/NuGet/System.IO.Compression/System.IO.Compression.FileSystem.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression.ZipFile">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.8-beta4.5/3rdPlugins/NuGet/System.IO.Compression/System.IO.Compression.ZipFile.dll</HintPath>
+ </Reference>
+ <Reference Include="Excel">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.8-beta4.5/Editor/Plugins/Excel/Excel.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.8-beta4.5/Editor/Plugins/Excel/ICSharpCode.SharpZipLib.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.Bcl.AsyncInterfaces">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.8-beta4.5/Nuget/Microsoft.Bcl.AsyncInterfaces.1.1.1/lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.CodeAnalysis">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.8-beta4.5/Nuget/Microsoft.CodeAnalysis.Common.3.11.0/lib/netstandard2.0/Microsoft.CodeAnalysis.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.CodeAnalysis.CSharp">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.8-beta4.5/Nuget/Microsoft.CodeAnalysis.CSharp.3.11.0/lib/netstandard2.0/Microsoft.CodeAnalysis.CSharp.dll</HintPath>
+ </Reference>
+ <Reference Include="ServiceStack.Text">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.8-beta4.5/Nuget/ServiceStack.Text.5.12.0/lib/netstandard2.0/ServiceStack.Text.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Buffers">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.8-beta4.5/Nuget/System.Buffers.4.5.1/lib/netstandard2.0/System.Buffers.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.Immutable">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.8-beta4.5/Nuget/System.Collections.Immutable.5.0.0/lib/netstandard2.0/System.Collections.Immutable.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Memory">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.8-beta4.5/Nuget/System.Memory.4.5.4/lib/netstandard2.0/System.Memory.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Metadata">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.8-beta4.5/Nuget/System.Reflection.Metadata.5.0.0/lib/netstandard2.0/System.Reflection.Metadata.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.CompilerServices.Unsafe">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.8-beta4.5/Nuget/System.Runtime.CompilerServices.Unsafe.5.0.0/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.Encoding.CodePages">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.8-beta4.5/Nuget/System.Text.Encoding.CodePages.4.5.1/lib/netstandard2.0/System.Text.Encoding.CodePages.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks.Extensions">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.8-beta4.5/Nuget/System.Threading.Tasks.Extensions.4.5.4/lib/netstandard2.0/System.Threading.Tasks.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="Debug.log">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.8-beta4.5/Plugins/Debug/Debug.log.dll</HintPath>
+ </Reference>
+ <Reference Include="log4netPlastic">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.unity.collab-proxy@1.12.5/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Plastic.Antlr3.Runtime">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.unity.collab-proxy@1.12.5/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Plastic.Newtonsoft.Json">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.unity.collab-proxy@1.12.5/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="unityplastic">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.unity.collab-proxy@1.12.5/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>E:/Unity3d Project/Github/BDFramework.OpenUPM/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.32f1c1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -763,7 +772,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{773427f2-ad2d-8560-2614-d9394f6d42b1}</Project>
+      <Project>{d68c0c8d-51ce-37e7-d71d-5d7a2152a97d}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>
