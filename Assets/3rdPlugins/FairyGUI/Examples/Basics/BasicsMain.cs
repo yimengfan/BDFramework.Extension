@@ -22,7 +22,11 @@ public class BasicsMain : MonoBehaviour
         UIConfig.defaultFont = "afont";
 #endif
         UIPackage.AddPackage("UI/Basics");
-
+        var uiPanel = this.GetComponent<UIPanel>();
+        uiPanel.packageName = "Basics";
+        uiPanel.componentName = "Main";
+        uiPanel.CreateUI();
+        //
         UIConfig.verticalScrollBar = "ui://Basics/ScrollBar_VT";
         UIConfig.horizontalScrollBar = "ui://Basics/ScrollBar_HZ";
         UIConfig.popupMenu = "ui://Basics/PopupMenu";
@@ -33,7 +37,8 @@ public class BasicsMain : MonoBehaviour
     {
         Application.targetFrameRate = 60;
         Stage.inst.onKeyDown.Add(OnKeyDown);
-
+       // this.GetComponent<UIPanel>().
+        this.GetComponent<UIPanel>().CreateUI();
         _mainView = this.GetComponent<UIPanel>().ui;
 
         _backBtn = _mainView.GetChild("btn_Back");

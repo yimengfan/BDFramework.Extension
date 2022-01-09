@@ -54,3 +54,4 @@ dkms.conf
 Library
 Logs
 obj
+/Temp

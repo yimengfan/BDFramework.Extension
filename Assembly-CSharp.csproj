@@ -262,6 +262,13 @@
      <Compile Include="Assets\3rdPlugins\FairyGUI\Scripts\Utils\XMLList.cs" />
      <Compile Include="Assets\3rdPlugins\FairyGUI\Scripts\Utils\XMLUtils.cs" />
      <Compile Include="Assets\3rdPlugins\FairyGUI\Scripts\Utils\ZipReader.cs" />
+     <Compile Include="Assets\Code\0.GuideWindow@hotfix\ScreenView_0_Guide.cs" />
+     <Compile Include="Assets\Code\1.FairyGUI@hotfix\Core\FGUIWindows.cs" />
+     <Compile Include="Assets\Code\1.FairyGUI@hotfix\Core\FairyGUILoader.cs" />
+     <Compile Include="Assets\Code\1.FairyGUI@hotfix\Core\FairyGUIMgr.cs" />
+     <Compile Include="Assets\Code\1.FairyGUI@hotfix\Demo\Example_01_Basics\Windows_Basics.cs" />
+     <Compile Include="Assets\Code\1.FairyGUI@hotfix\Demo\FairyDemoEnum.cs" />
+     <Compile Include="Assets\Code\1.FairyGUI@hotfix\Demo\ScreenView_1_FairyGUIMgr.cs" />
      <Compile Include="Assets\Code\BDFramework.Game\GameViewUtils.cs" />
      <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Adapter\AdapterRegister.cs" />
      <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Adapter\ExceptionAdapter.cs" />
@@ -284,6 +291,7 @@
      <Compile Include="Assets\Code\BDFramework.Game\Uflux@hotfix\ComponentBindAdaptor\CBA_Image.cs" />
      <Compile Include="Assets\Code\BDFramework.Game\Uflux@hotfix\ComponentBindAdaptor\CBA_Text.cs" />
      <Compile Include="Assets\Code\BDFramework.Game\Uflux@hotfix\ComponentBindAdaptor\CBA_UFluxBindLogic.cs" />
+     <Compile Include="Assets\Code\BDFramework.demo@hotfix\HotfixStart.cs" />
      <Compile Include="Assets\Scenes\Simple\StartPageTest.cs" />
      <Compile Include="Assets\Scenes\Simple\WindowPreconfig.cs" />
      <None Include="Assets\3rdPlugins\FairyGUI\Examples\Resources\RenderTexture\FullScreen.shader" />
