@@ -1,24 +1,27 @@
-﻿
-using BDFramework.Extension.FairyGUI;
+﻿using BDFramework.Extension.FairyGUI;
 using BDFramework.Extension.FairyGUI_hotfix;
 using BDFramework.Hotfix.ScreenView;
+using BDFramework.UFlux;
 using UnityEngine;
 
-[ScreenView(0)]
-public class ScreenView_0_Guide : IScreenView
+namespace BDFramework.Extension.Demo
 {
-    public int Name { get; set; }
-    public bool IsLoad { get; set; }
-
-    public void BeginInit()
+    [ScreenView(0)]
+    public class ScreenView_0_Guide : IScreenView
     {
-        Debug.Log("----------------->进入默认sv");
-        this.IsLoad = true;
-        FairyGUIMgr.Inst.LoadWindow((int) FairyDemoEnum.Basics);
-        FairyGUIMgr.Inst.Open((int) FairyDemoEnum.Basics);
-    }
+        public int Name { get; set; }
+        public bool IsLoad { get; set; }
 
-    public void BeginExit()
-    {
+        public void BeginInit()
+        {
+            Debug.Log("----------------->进入默认sv");
+            this.IsLoad = true;
+            UIManager.Inst.LoadWindow(WindowEnum.Guide);
+            UIManager.Inst.ShowWindow(WindowEnum.Guide);
+        }
+
+        public void BeginExit()
+        {
+        }
     }
 }

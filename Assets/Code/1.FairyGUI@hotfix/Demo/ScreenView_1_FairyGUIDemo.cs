@@ -6,7 +6,7 @@ using BDFramework.Extension.FairyGUI_hotfix;
 using UnityEngine;
 
 [ScreenView(1)]
-public class ScreenView_1_FairyGUIMgr : IScreenView
+public class ScreenView_1_FairyGUIDemo : IScreenView
 {
     public int Name { get; set; }
     public bool IsLoad { get; set; }
@@ -19,6 +19,6 @@ public class ScreenView_1_FairyGUIMgr : IScreenView
     }
     public void BeginExit()
     {
-        throw new System.NotImplementedException();
+        
     }
 }

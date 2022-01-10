@@ -263,12 +263,14 @@
      <Compile Include="Assets\3rdPlugins\FairyGUI\Scripts\Utils\XMLUtils.cs" />
      <Compile Include="Assets\3rdPlugins\FairyGUI\Scripts\Utils\ZipReader.cs" />
      <Compile Include="Assets\Code\0.GuideWindow@hotfix\ScreenView_0_Guide.cs" />
+     <Compile Include="Assets\Code\0.GuideWindow@hotfix\WindowEnum.cs" />
+     <Compile Include="Assets\Code\0.GuideWindow@hotfix\Window_Guide.cs" />
      <Compile Include="Assets\Code\1.FairyGUI@hotfix\Core\FGUIWindows.cs" />
      <Compile Include="Assets\Code\1.FairyGUI@hotfix\Core\FairyGUILoader.cs" />
      <Compile Include="Assets\Code\1.FairyGUI@hotfix\Core\FairyGUIMgr.cs" />
      <Compile Include="Assets\Code\1.FairyGUI@hotfix\Demo\Example_01_Basics\Windows_Basics.cs" />
      <Compile Include="Assets\Code\1.FairyGUI@hotfix\Demo\FairyDemoEnum.cs" />
-     <Compile Include="Assets\Code\1.FairyGUI@hotfix\Demo\ScreenView_1_FairyGUIMgr.cs" />
+     <Compile Include="Assets\Code\1.FairyGUI@hotfix\Demo\ScreenView_1_FairyGUIDemo.cs" />
      <Compile Include="Assets\Code\BDFramework.Game\GameViewUtils.cs" />
      <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Adapter\AdapterRegister.cs" />
      <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Adapter\ExceptionAdapter.cs" />
