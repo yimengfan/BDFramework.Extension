@@ -55,3 +55,7 @@ Library
 Logs
 obj
 /Temp
+/Assets/Plugins/Sirenix
+/Assets/Plugins/Sirenix.meta
+/Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj
+/Sirenix.OdinInspector.CompatibilityLayer.csproj

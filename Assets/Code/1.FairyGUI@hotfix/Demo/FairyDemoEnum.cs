@@ -1,4 +1,4 @@
-﻿namespace Code.BDFramework.Extension.FairyGUI_hotfix
+﻿namespace BDFramework.Extension.FairyGUI_hotfix
 {
     public enum FairyDemoEnum
     {

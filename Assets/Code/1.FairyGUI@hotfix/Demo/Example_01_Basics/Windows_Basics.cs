@@ -1,13 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using BDFramework.Extension.FairyGUI;
-using Code.BDFramework.Extension.FairyGUI_hotfix;
+using BDFramework.Extension.FairyGUI_hotfix;
 using FairyGUI;
 using UnityEngine;
 
 namespace FairyGUIDemo
 {
-    [FGUI((int)FairyDemoEnum.Basics, "UI/Basics","Basics","Main")]
+    /// <summary>
+    /// 该类是通过 FairyGui 默认自带的demo basics修改而来 
+    /// </summary>
+    [FGUI((int) FairyDemoEnum.Basics, "FairyGUI/Basics", "Basics", "Main")]
     public class WindowBasics : AFGUIWindowContainer
     {
         private GComponent _mainView;
@@ -17,7 +20,7 @@ namespace FairyGUIDemo
         private Dictionary<string, GComponent> _demoObjects;
         public Gradient lineGradient;
 
-        void Awake()
+        override public void Awake()
         {
 #if (UNITY_5 || UNITY_5_3_OR_NEWER)
             //Use the font names directly
@@ -30,7 +33,7 @@ namespace FairyGUIDemo
             UIConfig.horizontalScrollBar = "ui://Basics/ScrollBar_HZ";
             UIConfig.popupMenu = "ui://Basics/PopupMenu";
             UIConfig.buttonSound = (NAudioClip) UIPackage.GetItemAsset("Basics", "click");
-            Application.targetFrameRate = 60;
+            Application.targetFrameRate = 30;
             Stage.inst.onKeyDown.Add(OnKeyDown);
 
             //节点管理

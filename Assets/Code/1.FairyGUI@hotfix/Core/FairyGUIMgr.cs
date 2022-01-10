@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using BDFramework.Mgr;
+using BDFramework.ResourceMgr;
 using FairyGUI;
 using UnityEngine;
 using UnityEngine.UI;
@@ -75,13 +76,15 @@ namespace BDFramework.Extension.FairyGUI
 
         public override void Start()
         {
-            var uipanel = GameObject.FindObjectOfType<UIPanel>();
-            if (!uipanel)
+            var uiroot = GameObject.Find("FairyGUIRoot");//<UIPanel>();
+            if (!uiroot)
             {
-                var obj = new GameObject("FairyGUIPanel");
-                uipanel = obj.AddComponent<UIPanel>();
-                this.MainUIPanel = uipanel;
+                var obj = BResources.Load<GameObject>("FairyGUIRoot");
+                uiroot = GameObject.Instantiate(obj);
+                uiroot.name = "FairyGUIRoot";
             }
+
+            this.MainUIPanel = uiroot.GetComponentInChildren<UIPanel>();
         }
 
 

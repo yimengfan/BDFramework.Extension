@@ -10,7 +10,7 @@ namespace BDFramework.Extension.FairyGUI
         static UIPackage.LoadResource _loader = (string name, string extension, System.Type type, out DestroyMethod destroyMethod) =>
         {
             destroyMethod = DestroyMethod.Unload;
-            return BResources.Load<TextAsset>(name);
+            return BResources.Load(type,name);
         };
 
         /// <summary>
