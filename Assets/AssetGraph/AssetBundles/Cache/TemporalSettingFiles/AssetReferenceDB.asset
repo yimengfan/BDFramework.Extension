@@ -12,21 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee4bc21567f434b598a3c96ba4946372, type: 3}
   m_Name: AssetReferenceDB
   m_EditorClassIdentifier: 
-  m_assets:
-  - m_assetDatabaseId: d7918b75e7ba9874ab13048df98f07ff
-    m_importFrom: Assets/AssetGraph/AssetBundles/Cache/TemporalSettingFiles/AssetReferenceDB.asset
-    m_exportTo: 
-    m_variantName: 
-  - m_assetDatabaseId: 7c0bc3f7533748c2991786b1209c5d4a
-    m_importFrom: Assets/Code/0.GuideWindow@hotfix/Window_Guide.cs
-    m_exportTo: 
-    m_variantName: 
-  - m_assetDatabaseId: 8230003217d1e554da76c9d6d864ded0
-    m_importFrom: Assets/Scenes/BDFrame.unity
-    m_exportTo: 
-    m_variantName: 
-  - m_assetDatabaseId: c216a3748783bcf46a45e61d764e43b2
-    m_importFrom: Assets/FairyGUIResource/Runtime/UFlux/Window_Guide.prefab
-    m_exportTo: 
-    m_variantName: 
+  m_assets: []
   m_version: 2

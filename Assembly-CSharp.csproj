@@ -265,12 +265,17 @@
      <Compile Include="Assets\Code\0.GuideWindow@hotfix\ScreenView_0_Guide.cs" />
      <Compile Include="Assets\Code\0.GuideWindow@hotfix\WindowEnum.cs" />
      <Compile Include="Assets\Code\0.GuideWindow@hotfix\Window_Guide.cs" />
-     <Compile Include="Assets\Code\1.FairyGUI@hotfix\Core\FGUIWindows.cs" />
-     <Compile Include="Assets\Code\1.FairyGUI@hotfix\Core\FairyGUILoader.cs" />
-     <Compile Include="Assets\Code\1.FairyGUI@hotfix\Core\FairyGUIMgr.cs" />
-     <Compile Include="Assets\Code\1.FairyGUI@hotfix\Demo\Example_01_Basics\Windows_Basics.cs" />
-     <Compile Include="Assets\Code\1.FairyGUI@hotfix\Demo\FairyDemoEnum.cs" />
-     <Compile Include="Assets\Code\1.FairyGUI@hotfix\Demo\ScreenView_1_FairyGUIDemo.cs" />
+     <Compile Include="Assets\Code\1.FairyGUI\Core\@hotfix\AFGUIWindowContainer.cs" />
+     <Compile Include="Assets\Code\1.FairyGUI\Core\@hotfix\FGUIAttribute.cs" />
+     <Compile Include="Assets\Code\1.FairyGUI\Core\@hotfix\FairyGUIManager.cs" />
+     <Compile Include="Assets\Code\1.FairyGUI\Core\FairyGUILoader.cs" />
+     <Compile Include="Assets\Code\1.FairyGUI\Core\ILRuntimeHelper\FGUIHotfixRegister.cs" />
+     <Compile Include="Assets\Code\1.FairyGUI\Core\ILRuntimeHelper\FGUIWindowAdaptor.cs" />
+     <Compile Include="Assets\Code\1.FairyGUI\Demo@hotfix\Example_01_Basics\Hotfix_Window1.cs" />
+     <Compile Include="Assets\Code\1.FairyGUI\Demo@hotfix\Example_01_Basics\Hotfix_Window2.cs" />
+     <Compile Include="Assets\Code\1.FairyGUI\Demo@hotfix\Example_01_Basics\Windows_Basics.cs" />
+     <Compile Include="Assets\Code\1.FairyGUI\Demo@hotfix\FairyDemoEnum.cs" />
+     <Compile Include="Assets\Code\1.FairyGUI\Demo@hotfix\ScreenView_1_FairyGUIDemo.cs" />
      <Compile Include="Assets\Code\BDFramework.Game\GameViewUtils.cs" />
      <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Adapter\AdapterRegister.cs" />
      <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Adapter\ExceptionAdapter.cs" />
@@ -280,7 +285,137 @@
      <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Adapter\Manual\CoroutineAdapter.cs" />
      <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Adapter\Manual\MonoBehaviourAdapter.cs" />
      <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Adapter\ScriptableObjectAdapter.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\BDFramework_Adaptor_AActionAdaptor_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\BDFramework_Adaptor_ActionAdaptor_1_ILTypeIn.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\BDFramework_Adaptor_ActionAdaptor_1_Object_B.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\BDFramework_BDLauncher_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\BDFramework_Core_Debugger_Debugger_NetworkSe.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\BDFramework_Extension_FairyGUI_FairyGUILoade.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\BDFramework_ILRuntimeHelper_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\BDFramework_Mgr_ManagerInstHelper_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\BDFramework_ResourceMgr_BResources_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\BDFramework_UFlux_IButton_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\BDFramework_UFlux_IComponentOnClick_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\BDebug_Binding.cs" />
      <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\CLRBindings.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\FairyGUI_Controller_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\FairyGUI_DisplayObject_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\FairyGUI_DragDropManager_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\FairyGUI_EllipseMesh_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\FairyGUI_EventContext_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\FairyGUI_EventListener_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\FairyGUI_GButton_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\FairyGUI_GComponent_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\FairyGUI_GGraph_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\FairyGUI_GList_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\FairyGUI_GMovieClip_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\FairyGUI_GObject_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\FairyGUI_GPathPoint_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\FairyGUI_GPath_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\FairyGUI_GProgressBar_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\FairyGUI_GRoot_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\FairyGUI_GTextField_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\FairyGUI_GTween_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\FairyGUI_GTweener_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\FairyGUI_InputEvent_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\FairyGUI_LineMesh_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\FairyGUI_NGraphics_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\FairyGUI_PolygonMesh_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\FairyGUI_PopupMenu_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\FairyGUI_Stage_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\FairyGUI_Timers_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\FairyGUI_Transition_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\FairyGUI_TweenValue_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\FairyGUI_UIConfig_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\FairyGUI_UIPackage_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\FairyGUI_UIPanel_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\FairyGUI_VertexBuffer_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\FairyGUI_Window_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\IEnumeratorTool_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\ILRuntime_CLR_TypeSystem_IType_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\ILRuntime_Mono_Cecil_MemberReference_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\ILRuntime_Runtime_Enviorment_AppDomain_Bindi.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\LitJson_JsonMapper_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Action_2_Int32_Int32_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Action_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Activator_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Array_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Char_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_Dictionary_2_Int3.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_Dictionary_2_Int3_t1.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_Dictionary_2_Int3_t2.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_Dictionary_2_Int3_t3.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_Dictionary_2_Int3_t4.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_Dictionary_2_Stri.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_Dictionary_2_Stri_t1.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_Dictionary_2_Stri_t10.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_Dictionary_2_Stri_t2.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_Dictionary_2_Stri_t3.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_Dictionary_2_Stri_t4.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_Dictionary_2_Stri_t5.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_Dictionary_2_Stri_t6.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_Dictionary_2_Stri_t7.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_Dictionary_2_Stri_t8.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_Dictionary_2_Stri_t9.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_Dictionary_2_Tran.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_Dictionary_2_Type.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_Dictionary_2_Type_t1.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_Dictionary_2_Type_t2.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_IEnumerable_1_ILT.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_IEnumerator_1_ILT.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_KeyValuePair_2_In.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_KeyValuePair_2_St.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_List_1_Enum_Bindi.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_List_1_Enum_Bindi_t1.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_List_1_ILTypeInst.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_List_1_ILTypeInst_t1.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_List_1_Int32_Bind.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_List_1_Int32_Bind_t1.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_List_1_MemberInfo.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_List_1_MemberInfo_t1.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_List_1_Object_Bin.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_List_1_Object_Bin_t1.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_List_1_String_Bin.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_List_1_Transform_.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_List_1_Type_Bindi.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_Generic_List_1_Vector2_Bi.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Collections_IEnumerator_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Enum_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_IDisposable_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Int32_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Linq_Enumerable_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_NotSupportedException_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Nullable_1_Rect_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Object_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Reflection_Assembly_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Reflection_FieldInfo_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Reflection_MemberInfo_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Reflection_MethodBase_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Reflection_MethodInfo_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Reflection_ParameterInfo_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Reflection_PropertyInfo_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_String_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\System_Type_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\UnityEngine_AnimationCurve_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\UnityEngine_Application_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\UnityEngine_Behaviour_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\UnityEngine_Color_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\UnityEngine_Component_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\UnityEngine_Debug_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\UnityEngine_Events_UnityEventBase_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\UnityEngine_Events_UnityEvent_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\UnityEngine_GameObject_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\UnityEngine_Object_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\UnityEngine_Random_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\UnityEngine_Rect_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\UnityEngine_Transform_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\UnityEngine_UI_Button_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\UnityEngine_UI_Graphic_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\UnityEngine_UI_Image_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\UnityEngine_UI_Text_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\UnityEngine_Vector2_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\UnityEngine_Vector3_Binding.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\UnityEngine_WaitForSeconds_Binding.cs" />
      <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Manual\ManualCLRBindings.cs" />
      <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\ValueType\QuaternionBinder.cs" />
      <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\ValueType\Vector2Binder.cs" />
@@ -555,59 +690,14 @@
  <Reference Include="DOTween">
  <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Assets/3rdPlugins/Dotween/DOTween/DOTween.dll</HintPath>
  </Reference>
- <Reference Include="ILRuntime.Mono.Cecil">
- <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.ourpalm.ilruntime@2.0.2/Plugins/ILRuntime.Mono.Cecil.dll</HintPath>
+ <Reference Include="Sirenix.OdinInspector.Attributes">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll</HintPath>
  </Reference>
- <Reference Include="ILRuntime.Mono.Cecil.Mdb">
- <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.ourpalm.ilruntime@2.0.2/Plugins/ILRuntime.Mono.Cecil.Mdb.dll</HintPath>
+ <Reference Include="Sirenix.OdinInspector.Editor">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll</HintPath>
  </Reference>
- <Reference Include="ILRuntime.Mono.Cecil.Pdb">
- <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.ourpalm.ilruntime@2.0.2/Plugins/ILRuntime.Mono.Cecil.Pdb.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.Compression">
- <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.9-preview.4/3rdPlugins/NuGet/System.IO.Compression/System.IO.Compression.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.Compression.FileSystem">
- <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.9-preview.4/3rdPlugins/NuGet/System.IO.Compression/System.IO.Compression.FileSystem.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.Compression.ZipFile">
- <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.9-preview.4/3rdPlugins/NuGet/System.IO.Compression/System.IO.Compression.ZipFile.dll</HintPath>
- </Reference>
- <Reference Include="Microsoft.Bcl.AsyncInterfaces">
- <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.9-preview.4/Nuget/Microsoft.Bcl.AsyncInterfaces.1.1.1/lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
- </Reference>
- <Reference Include="Microsoft.CodeAnalysis">
- <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.9-preview.4/Nuget/Microsoft.CodeAnalysis.Common.3.11.0/lib/netstandard2.0/Microsoft.CodeAnalysis.dll</HintPath>
- </Reference>
- <Reference Include="Microsoft.CodeAnalysis.CSharp">
- <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.9-preview.4/Nuget/Microsoft.CodeAnalysis.CSharp.3.11.0/lib/netstandard2.0/Microsoft.CodeAnalysis.CSharp.dll</HintPath>
- </Reference>
- <Reference Include="ServiceStack.Text">
- <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.9-preview.4/Nuget/ServiceStack.Text.5.12.0/lib/netstandard2.0/ServiceStack.Text.dll</HintPath>
- </Reference>
- <Reference Include="System.Buffers">
- <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.9-preview.4/Nuget/System.Buffers.4.5.1/lib/netstandard2.0/System.Buffers.dll</HintPath>
- </Reference>
- <Reference Include="System.Collections.Immutable">
- <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.9-preview.4/Nuget/System.Collections.Immutable.5.0.0/lib/netstandard2.0/System.Collections.Immutable.dll</HintPath>
- </Reference>
- <Reference Include="System.Memory">
- <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.9-preview.4/Nuget/System.Memory.4.5.4/lib/netstandard2.0/System.Memory.dll</HintPath>
- </Reference>
- <Reference Include="System.Reflection.Metadata">
- <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.9-preview.4/Nuget/System.Reflection.Metadata.5.0.0/lib/netstandard2.0/System.Reflection.Metadata.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.CompilerServices.Unsafe">
- <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.9-preview.4/Nuget/System.Runtime.CompilerServices.Unsafe.5.0.0/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
- </Reference>
- <Reference Include="System.Text.Encoding.CodePages">
- <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.9-preview.4/Nuget/System.Text.Encoding.CodePages.4.5.1/lib/netstandard2.0/System.Text.Encoding.CodePages.dll</HintPath>
- </Reference>
- <Reference Include="System.Threading.Tasks.Extensions">
- <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.9-preview.4/Nuget/System.Threading.Tasks.Extensions.4.5.4/lib/netstandard2.0/System.Threading.Tasks.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="Debug.log">
- <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.9-preview.4/Plugins/Debug/Debug.log.dll</HintPath>
+ <Reference Include="Sirenix.Serialization.Config">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll</HintPath>
  </Reference>
  <Reference Include="Sirenix.Serialization">
  <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.dll</HintPath>
@@ -618,14 +708,59 @@
  <Reference Include="Sirenix.Utilities.Editor">
  <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Assets/Plugins/Sirenix/Assemblies/Sirenix.Utilities.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Sirenix.OdinInspector.Editor">
- <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Editor.dll</HintPath>
+ <Reference Include="ILRuntime.Mono.Cecil">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.ourpalm.ilruntime@2.0.2/Plugins/ILRuntime.Mono.Cecil.dll</HintPath>
  </Reference>
- <Reference Include="Sirenix.OdinInspector.Attributes">
- <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll</HintPath>
+ <Reference Include="ILRuntime.Mono.Cecil.Mdb">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.ourpalm.ilruntime@2.0.2/Plugins/ILRuntime.Mono.Cecil.Mdb.dll</HintPath>
  </Reference>
- <Reference Include="Sirenix.Serialization.Config">
- <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Assets/Plugins/Sirenix/Assemblies/Sirenix.Serialization.Config.dll</HintPath>
+ <Reference Include="ILRuntime.Mono.Cecil.Pdb">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.ourpalm.ilruntime@2.0.2/Plugins/ILRuntime.Mono.Cecil.Pdb.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.9-preview.6/3rdPlugins/NuGet/System.IO.Compression/System.IO.Compression.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression.FileSystem">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.9-preview.6/3rdPlugins/NuGet/System.IO.Compression/System.IO.Compression.FileSystem.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression.ZipFile">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.9-preview.6/3rdPlugins/NuGet/System.IO.Compression/System.IO.Compression.ZipFile.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.Bcl.AsyncInterfaces">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.9-preview.6/Nuget/Microsoft.Bcl.AsyncInterfaces.1.1.1/lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.CodeAnalysis">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.9-preview.6/Nuget/Microsoft.CodeAnalysis.Common.3.11.0/lib/netstandard2.0/Microsoft.CodeAnalysis.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.CodeAnalysis.CSharp">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.9-preview.6/Nuget/Microsoft.CodeAnalysis.CSharp.3.11.0/lib/netstandard2.0/Microsoft.CodeAnalysis.CSharp.dll</HintPath>
+ </Reference>
+ <Reference Include="ServiceStack.Text">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.9-preview.6/Nuget/ServiceStack.Text.5.12.0/lib/netstandard2.0/ServiceStack.Text.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Buffers">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.9-preview.6/Nuget/System.Buffers.4.5.1/lib/netstandard2.0/System.Buffers.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.Immutable">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.9-preview.6/Nuget/System.Collections.Immutable.5.0.0/lib/netstandard2.0/System.Collections.Immutable.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Memory">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.9-preview.6/Nuget/System.Memory.4.5.4/lib/netstandard2.0/System.Memory.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Metadata">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.9-preview.6/Nuget/System.Reflection.Metadata.5.0.0/lib/netstandard2.0/System.Reflection.Metadata.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.CompilerServices.Unsafe">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.9-preview.6/Nuget/System.Runtime.CompilerServices.Unsafe.5.0.0/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.Encoding.CodePages">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.9-preview.6/Nuget/System.Text.Encoding.CodePages.4.5.1/lib/netstandard2.0/System.Text.Encoding.CodePages.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks.Extensions">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.9-preview.6/Nuget/System.Threading.Tasks.Extensions.4.5.4/lib/netstandard2.0/System.Threading.Tasks.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="Debug.log">
+ <HintPath>E:/Unity3d Project/Github/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.9-preview.6/Plugins/Debug/Debug.log.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.32f1c1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

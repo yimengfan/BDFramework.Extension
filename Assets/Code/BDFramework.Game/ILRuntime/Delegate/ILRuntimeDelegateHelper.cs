@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using ILRuntime.Runtime.Enviorment;
 using UnityEngine;
 using System;
+using BDFramework.Extension.FairyGUI;
 using AppDomain = ILRuntime.Runtime.Enviorment.AppDomain;
 
 public class ILRuntimeDelegateHelper
@@ -58,7 +59,16 @@ public class ILRuntimeDelegateHelper
                     return ((Func<ILRuntime.Runtime.Intepreter.ILTypeInstance, System.Boolean>) act)(obj);
                 });
             });
+        appdomain.DelegateManager.RegisterDelegateConvertor<BDFramework.BDLauncher.GameLauncherDelegate>((act) =>
+        {
+            //
+            return new BDFramework.BDLauncher.GameLauncherDelegate(() =>
+            {
+                ((Action)act)();
+            });
+        });
 
+       FGUIHotfixRegister.RegisterDelegate(appdomain);
 //[insert]
     }
 }
