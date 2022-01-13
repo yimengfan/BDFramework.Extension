@@ -1,4 +1,4 @@
-﻿using BDFramework.Extension.FairyGUI;
+﻿using BDFramework.FairyGUIEx;
 using BDFramework.Extension.FairyGUI_hotfix;
 using BDFramework.Hotfix.ScreenView;
 using BDFramework.UFlux;

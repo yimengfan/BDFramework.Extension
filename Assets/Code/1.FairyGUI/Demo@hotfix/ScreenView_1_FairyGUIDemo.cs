@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using BDFramework.Extension.FairyGUI;
+using BDFramework.FairyGUIEx;
 using BDFramework.Hotfix.ScreenView;
 using BDFramework.Extension.FairyGUI_hotfix;
 using UnityEngine;

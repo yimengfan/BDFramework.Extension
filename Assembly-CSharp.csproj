@@ -290,7 +290,7 @@
      <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\BDFramework_Adaptor_ActionAdaptor_1_Object_B.cs" />
      <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\BDFramework_BDLauncher_Binding.cs" />
      <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\BDFramework_Core_Debugger_Debugger_NetworkSe.cs" />
-     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\BDFramework_Extension_FairyGUI_FairyGUILoade.cs" />
+     <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\BDFramework_FairyGUIEx_FairyGUILoader_Bindin.cs" />
      <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\BDFramework_ILRuntimeHelper_Binding.cs" />
      <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\BDFramework_Mgr_ManagerInstHelper_Binding.cs" />
      <Compile Include="Assets\Code\BDFramework.Game\ILRuntime\Binding\Analysis\BDFramework_ResourceMgr_BResources_Binding.cs" />

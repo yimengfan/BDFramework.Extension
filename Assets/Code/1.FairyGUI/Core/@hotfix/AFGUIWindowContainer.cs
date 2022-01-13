@@ -1,6 +1,6 @@
 ﻿using FairyGUI;
 
-namespace BDFramework.Extension.FairyGUI
+namespace BDFramework.FairyGUIEx
 {
     /// <summary>
     /// Windows容器基类，

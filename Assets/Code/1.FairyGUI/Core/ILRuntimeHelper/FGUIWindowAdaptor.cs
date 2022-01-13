@@ -5,7 +5,7 @@ using ILRuntime.Runtime.Enviorment;
 using ILRuntime.Runtime.Intepreter;
 using UnityEngine;
 
-namespace BDFramework.Extension.FairyGUI
+namespace BDFramework.FairyGUIEx
 {
     /// <summary>
     /// 该类用于 hotfix下继承 Window的绑定

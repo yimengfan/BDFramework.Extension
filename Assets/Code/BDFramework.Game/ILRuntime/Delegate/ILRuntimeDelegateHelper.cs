@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using ILRuntime.Runtime.Enviorment;
 using UnityEngine;
 using System;
-using BDFramework.Extension.FairyGUI;
+using BDFramework.FairyGUIEx;
 using AppDomain = ILRuntime.Runtime.Enviorment.AppDomain;
 
 public class ILRuntimeDelegateHelper

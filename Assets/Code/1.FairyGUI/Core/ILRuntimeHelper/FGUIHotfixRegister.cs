@@ -1,7 +1,7 @@
-﻿using FairyGUI;
-using ILRuntime.Runtime.Enviorment;
+﻿using System;
+using AppDomain = ILRuntime.Runtime.Enviorment.AppDomain;
 
-namespace BDFramework.Extension.FairyGUI
+namespace BDFramework.FairyGUIEx
 {
     static public class FGUIHotfixRegister
     {
@@ -19,10 +19,26 @@ namespace BDFramework.Extension.FairyGUI
         /// 注册delegate
         /// </summary>
         /// <param name="appDomain"></param>
-        static public void RegisterDelegate(AppDomain appDomain)
+        static public void RegisterDelegate(AppDomain appdomain)
         {
-         
-          //  appDomain.DelegateManager.RegisterFunctionDelegate<System.String, System.String, System.Type, DestroyMethod, System.Object>();
+            appdomain.DelegateManager.RegisterMethodDelegate<FairyGUI.EventContext>();
+
+            appdomain.DelegateManager.RegisterDelegateConvertor<FairyGUI.EventCallback1>((act) =>
+            {
+                return new FairyGUI.EventCallback1((context) =>
+                {
+                    ((Action<FairyGUI.EventContext>)act)(context);
+                });
+            });
+            appdomain.DelegateManager.RegisterDelegateConvertor<FairyGUI.EventCallback0>((act) =>
+            {
+                return new FairyGUI.EventCallback0(() =>
+                {
+                    ((Action)act)();
+                });
+            });
+
+
 
         }
         

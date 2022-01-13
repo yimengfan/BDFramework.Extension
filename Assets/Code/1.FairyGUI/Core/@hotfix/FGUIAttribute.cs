@@ -1,6 +1,6 @@
 ﻿using BDFramework.Mgr;
 
-namespace BDFramework.Extension.FairyGUI
+namespace BDFramework.FairyGUIEx
 {
     /// <summary>
     /// FGUI的标签

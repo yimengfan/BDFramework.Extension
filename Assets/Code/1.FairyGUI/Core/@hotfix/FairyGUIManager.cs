@@ -5,7 +5,7 @@ using BDFramework.ResourceMgr;
 using FairyGUI;
 using UnityEngine;
 
-namespace BDFramework.Extension.FairyGUI
+namespace BDFramework.FairyGUIEx
 {
 
     /// <summary>

@@ -153,7 +153,7 @@ namespace ILRuntime.Runtime.Generated
             System_Collections_Generic_Dictionary_2_Int32_List_1_ILTypeInstance_Binding.Register(app);
             System_Reflection_MethodInfo_Binding.Register(app);
             System_Reflection_ParameterInfo_Binding.Register(app);
-            BDFramework_Extension_FairyGUI_FairyGUILoader_Binding.Register(app);
+            BDFramework_FairyGUIEx_FairyGUILoader_Binding.Register(app);
             System_Char_Binding.Register(app);
             System_Collections_Generic_Dictionary_2_Type_MethodInfo_Binding.Register(app);
 

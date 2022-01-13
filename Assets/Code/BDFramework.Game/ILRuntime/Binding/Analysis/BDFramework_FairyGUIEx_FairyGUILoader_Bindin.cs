@@ -14,14 +14,14 @@ using ILRuntime.CLR.Utils;
 
 namespace ILRuntime.Runtime.Generated
 {
-    unsafe class BDFramework_Extension_FairyGUI_FairyGUILoader_Binding
+    unsafe class BDFramework_FairyGUIEx_FairyGUILoader_Binding
     {
         public static void Register(ILRuntime.Runtime.Enviorment.AppDomain app)
         {
             BindingFlags flag = BindingFlags.Public | BindingFlags.Instance | BindingFlags.Static | BindingFlags.DeclaredOnly;
             MethodBase method;
             Type[] args;
-            Type type = typeof(BDFramework.Extension.FairyGUI.FairyGUILoader);
+            Type type = typeof(BDFramework.FairyGUIEx.FairyGUILoader);
             args = new Type[]{typeof(System.String)};
             method = type.GetMethod("LoadPackage", flag, null, args, null);
             app.RegisterCLRMethodRedirection(method, LoadPackage_0);
@@ -41,7 +41,7 @@ namespace ILRuntime.Runtime.Generated
             __intp.Free(ptr_of_this_method);
 
 
-            BDFramework.Extension.FairyGUI.FairyGUILoader.LoadPackage(@packagePath);
+            BDFramework.FairyGUIEx.FairyGUILoader.LoadPackage(@packagePath);
 
             return __ret;
         }
