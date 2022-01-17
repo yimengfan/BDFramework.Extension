@@ -38,6 +38,14 @@ namespace BDFramework.FairyGUIEx
                 });
             });
 
+            appdomain.DelegateManager.RegisterDelegateConvertor<FairyGUI.GTweenCallback>((act) =>
+            {
+                return new FairyGUI.GTweenCallback(() =>
+                {
+                    ((Action)act)();
+                });
+            });
+
 
 
         }
