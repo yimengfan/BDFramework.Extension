@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{d68c0c8d-51ce-37e7-d71d-5d7a2152a97d}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirenix.OdinInspector.CompatibilityLayer", "Sirenix.OdinInspector.CompatibilityLayer.csproj", "{899c4159-c94b-2c0f-2387-8fb14491f595}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirenix.OdinInspector.CompatibilityLayer.Editor", "Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj", "{3f4e0202-6e9e-e3a0-7766-4f1dab19aa98}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{05e98c2b-7db0-bb63-d3e1-679032a0471b}"
 EndProject
 Global
@@ -19,14 +15,6 @@ Global
 		{d68c0c8d-51ce-37e7-d71d-5d7a2152a97d}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{d68c0c8d-51ce-37e7-d71d-5d7a2152a97d}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{d68c0c8d-51ce-37e7-d71d-5d7a2152a97d}.Release|Any CPU.Build.0 = Release|Any CPU
-		{899c4159-c94b-2c0f-2387-8fb14491f595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{899c4159-c94b-2c0f-2387-8fb14491f595}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{899c4159-c94b-2c0f-2387-8fb14491f595}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{899c4159-c94b-2c0f-2387-8fb14491f595}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3f4e0202-6e9e-e3a0-7766-4f1dab19aa98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3f4e0202-6e9e-e3a0-7766-4f1dab19aa98}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3f4e0202-6e9e-e3a0-7766-4f1dab19aa98}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3f4e0202-6e9e-e3a0-7766-4f1dab19aa98}.Release|Any CPU.Build.0 = Release|Any CPU
 		{05e98c2b-7db0-bb63-d3e1-679032a0471b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{05e98c2b-7db0-bb63-d3e1-679032a0471b}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05e98c2b-7db0-bb63-d3e1-679032a0471b}.Release|Any CPU.ActiveCfg = Release|Any CPU
