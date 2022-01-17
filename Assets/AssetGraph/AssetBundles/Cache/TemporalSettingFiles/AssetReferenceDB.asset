@@ -1854,10 +1854,6 @@ MonoBehaviour:
     m_importFrom: Packages/com.unity.timeline/LICENSE.md
     m_exportTo: 
     m_variantName: 
-  - m_assetDatabaseId: 056bae176cb85714c8314c01027352e9
-    m_importFrom: Assets/_TerrainAutoUpgrade/layer_Grass (Hill)3d3aba195e4d26ee.terrainlayer
-    m_exportTo: 
-    m_variantName: 
   - m_assetDatabaseId: d98fbe17966d8ef449b25b99024bf36f
     m_importFrom: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhoshechristmas1.png
     m_exportTo: 
@@ -3386,10 +3382,6 @@ MonoBehaviour:
     m_importFrom: Assets/3rdPlugins/FairyGUI/Examples/Resources/UI/HitTest_atlas0.png
     m_exportTo: 
     m_variantName: 
-  - m_assetDatabaseId: 2794f6ec3cec3574bb7354d9b84a7bea
-    m_importFrom: Assets/_TerrainAutoUpgrade/layer_Cliff (Layered Rock)3d3aba195e4d26ee.terrainlayer
-    m_exportTo: 
-    m_variantName: 
   - m_assetDatabaseId: 40bf3cec17fa0b49fe04443c8332d638
     m_importFrom: Packages/com.unity.modules.jsonserialize/package.json
     m_exportTo: 
@@ -4121,6 +4113,22 @@ MonoBehaviour:
     m_variantName: 
   - m_assetDatabaseId: 6719b9ff26333564181b5328d934035c
     m_importFrom: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconchanged.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 0ad02c9a102914a48aee1cde2619ff7a
+    m_importFrom: Assets/Code/BDFramework.Game/ILRuntime/Binding/Analysis/CLRBindings.cs
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: b1f5d8242dcd5d84890a261f1867dfcc
+    m_importFrom: Assets/StreamingAssets/Android/Hotfix/hotfix.dll
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 8f2db9e823f42234e91d10a4ebe17c0b
+    m_importFrom: Assets/StreamingAssets/Android/Hotfix/hotfix.dll.pdb
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 4d3693a51a5f1c04f9ccf1c25cf1a5d0
+    m_importFrom: Assets/StreamingAssets/Android/PackageBuild.Info
     m_exportTo: 
     m_variantName: 
   m_version: 2
