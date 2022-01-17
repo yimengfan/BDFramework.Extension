@@ -681,6 +681,12 @@
  <Reference Include="UnityEditor">
  <HintPath>D:/UnityHub/2019.4.33f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
  </Reference>
+ <Reference Include="DemiLib">
+ <HintPath>E:/BDFramework.Extension/Assets/3rdPlugins/Dotween/DemiLib/Core/DemiLib.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>E:/BDFramework.Extension/Assets/3rdPlugins/Dotween/DOTween/DOTween.dll</HintPath>
+ </Reference>
  <Reference Include="ILRuntime.Mono.Cecil">
  <HintPath>E:/BDFramework.Extension/Library/PackageCache/com.ourpalm.ilruntime@2.0.2/Plugins/ILRuntime.Mono.Cecil.dll</HintPath>
  </Reference>
@@ -734,12 +740,6 @@
  </Reference>
  <Reference Include="Debug.log">
  <HintPath>E:/BDFramework.Extension/Library/PackageCache/com.popo.bdframework@2.0.9-preview.6/Plugins/Debug/Debug.log.dll</HintPath>
- </Reference>
- <Reference Include="DemiLib">
- <HintPath>E:/BDFramework.Extension/Assets/3rdPlugins/Dotween/DemiLib/Core/DemiLib.dll</HintPath>
- </Reference>
- <Reference Include="DOTween">
- <HintPath>E:/BDFramework.Extension/Assets/3rdPlugins/Dotween/DOTween/DOTween.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>D:/UnityHub/2019.4.33f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

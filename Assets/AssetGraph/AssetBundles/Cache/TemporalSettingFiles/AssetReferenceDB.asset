@@ -13,10 +13,6 @@ MonoBehaviour:
   m_Name: AssetReferenceDB
   m_EditorClassIdentifier: 
   m_assets:
-  - m_assetDatabaseId: 85bcaf92dbdf28649a1b5a1aafa2eb4c
-    m_importFrom: Assets/_TerrainAutoUpgrade
-    m_exportTo: 
-    m_variantName: 
   - m_assetDatabaseId: 00000000000000005000000000000000
     m_importFrom: Library/BuildPlayer.prefs
     m_exportTo: 
@@ -535,10 +531,6 @@ MonoBehaviour:
     m_variantName: 
   - m_assetDatabaseId: d08b6432a8ecc45e9919f60b13177955
     m_importFrom: Packages/com.unity.assetgraph/Tests/Editor/Graphs/__hidden__LoadBySearchFilterTest_TestSearchFilterWithTypeAndName.asset
-    m_exportTo: 
-    m_variantName: 
-  - m_assetDatabaseId: da5f4532083aeb44cbc20a517e81c3b5
-    m_importFrom: Assets/_TerrainAutoUpgrade/layer_Grass (Hill)3d3aba195e4d26ee.terrainlayer
     m_exportTo: 
     m_variantName: 
   - m_assetDatabaseId: 3cd0763238b935d4b8ed20a417ac48e6
@@ -1862,6 +1854,10 @@ MonoBehaviour:
     m_importFrom: Packages/com.unity.timeline/LICENSE.md
     m_exportTo: 
     m_variantName: 
+  - m_assetDatabaseId: 056bae176cb85714c8314c01027352e9
+    m_importFrom: Assets/_TerrainAutoUpgrade/layer_Grass (Hill)3d3aba195e4d26ee.terrainlayer
+    m_exportTo: 
+    m_variantName: 
   - m_assetDatabaseId: d98fbe17966d8ef449b25b99024bf36f
     m_importFrom: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_genericbuhoshechristmas1.png
     m_exportTo: 
@@ -3180,10 +3176,6 @@ MonoBehaviour:
     m_importFrom: Packages/com.unity.assetgraph/Editor/GUI/GraphicResources/NodeImage/node8@2x.png
     m_exportTo: 
     m_variantName: 
-  - m_assetDatabaseId: 5471a24c8b0280d499cf407b4812b058
-    m_importFrom: Assets/_TerrainAutoUpgrade/layer_Cliff (Layered Rock)3d3aba195e4d26ee.terrainlayer
-    m_exportTo: 
-    m_variantName: 
   - m_assetDatabaseId: 9bf2564c9817bb34988453ae948954d2
     m_importFrom: Assets/3rdPlugins/Dotween/DemiLib/Core/DemiLib.xml
     m_exportTo: 
@@ -3392,6 +3384,10 @@ MonoBehaviour:
     m_variantName: 
   - m_assetDatabaseId: 9634eddcff8554d65b031e5962025725
     m_importFrom: Assets/3rdPlugins/FairyGUI/Examples/Resources/UI/HitTest_atlas0.png
+    m_exportTo: 
+    m_variantName: 
+  - m_assetDatabaseId: 2794f6ec3cec3574bb7354d9b84a7bea
+    m_importFrom: Assets/_TerrainAutoUpgrade/layer_Cliff (Layered Rock)3d3aba195e4d26ee.terrainlayer
     m_exportTo: 
     m_variantName: 
   - m_assetDatabaseId: 40bf3cec17fa0b49fe04443c8332d638
