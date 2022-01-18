@@ -1,0 +1,636 @@
+
+{
+  "Time" : "2022/1/17",
+  "AssetDataMaps" : {
+    "assets/fairyguiresource/runtime/fairygui/bag_atlas0.png" : {
+      "Id" : 0,
+      "ArtConfigIdx" : 1,
+      "Type"         : 0,
+      "ABName"       : "13185bb93e3dd604a812906754380e94",
+      "ReferenceCount" : 0,
+      "Hash"           : "9e394b7e57b2d58877d60b7c12af962985b4a457b57dd35e6da72d6eff0bf5ac",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/bag_fui.bytes"  : {
+      "Id" : 1,
+      "ArtConfigIdx" : 2,
+      "Type"         : 1,
+      "ABName"       : "e0988a40ecc3d814fa4661939e86e896",
+      "ReferenceCount" : 0,
+      "Hash"           : "08d31db95416ecb3002bc01c41a1251492c3bbfe2681fdd2ca6fce3534d2dcf8",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/basics_atlas0.png" : {
+      "Id" : 2,
+      "ArtConfigIdx" : 3,
+      "Type"         : 0,
+      "ABName"       : "4948892f7099f514696ebcdea486ad65",
+      "ReferenceCount" : 0,
+      "Hash"           : "b1c2393a63bd42ea7dd827c364df577ca5f20aae7b92cee949dbf636cc206396",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/basics_fui.bytes"  : {
+      "Id" : 3,
+      "ArtConfigIdx" : 4,
+      "Type"         : 1,
+      "ABName"       : "aea5323a2e0a45646aa355881fecdd79",
+      "ReferenceCount" : 0,
+      "Hash"           : "649333f9a099d19895371f7cbc79efbc8aba0c01d501078c0870197f30b8c313",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/basics_gojg7u.wav" : {
+      "Id" : 4,
+      "ArtConfigIdx" : 5,
+      "Type"         : 2,
+      "ABName"       : "1a3b104d036f2e3418644fe9cc0e76cd",
+      "ReferenceCount" : 0,
+      "Hash"           : "4c0ceb5a1317fce9e6c966900388a7eea0229434923015275058839636021151",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/basics_o4lt7w.wav" : {
+      "Id" : 5,
+      "ArtConfigIdx" : 6,
+      "Type"         : 2,
+      "ABName"       : "379825b20ef81c044b164763965da3fc",
+      "ReferenceCount" : 0,
+      "Hash"           : "53f3b9c396ec92c7e8b5890af21bd7da91d88fe3c2ffaea43bf36aea0bc33e06",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/bundleusage_atlas0.png" : {
+      "Id" : 6,
+      "ArtConfigIdx" : 7,
+      "Type"         : 0,
+      "ABName"       : "ae39cafc3396c144f8334f9682786bfd",
+      "ReferenceCount" : 0,
+      "Hash"           : "45bda48c735bf1eee517483ffc2d8971c820f2827f8a30b252a6fb1cf5e35d80",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/bundleusage_fui.bytes"  : {
+      "Id" : 7,
+      "ArtConfigIdx" : 8,
+      "Type"         : 1,
+      "ABName"       : "fa395c875ec41674ea2041cec2be4483",
+      "ReferenceCount" : 0,
+      "Hash"           : "fb6d48ae4c0093047194c5cb77b9a0ccc1abad43c68277fe7db07fa3eeb4655b",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/cooldown_atlas0.png"    : {
+      "Id" : 8,
+      "ArtConfigIdx" : 9,
+      "Type"         : 0,
+      "ABName"       : "36928074e4e288249bd3a593d9e0029b",
+      "ReferenceCount" : 0,
+      "Hash"           : "46d96fa0b580c94bdebd8f68bc2d691efa805a74ab3d63854fabb87d51e76c1a",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/cooldown_fui.bytes"     : {
+      "Id" : 9,
+      "ArtConfigIdx" : 10,
+      "Type"         : 1,
+      "ABName"       : "f1fdb519da1067c44a920f91919a8003",
+      "ReferenceCount" : 0,
+      "Hash"           : "d06acaef7154af5642b4c7fca4cedb8aa97a59d12d8fef66bf2f28c92de6a9b5",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/curve_atlas0.png"       : {
+      "Id" : 10,
+      "ArtConfigIdx" : 11,
+      "Type"         : 0,
+      "ABName"       : "cf48243b9d506f24880adfde39680639",
+      "ReferenceCount" : 0,
+      "Hash"           : "b7c3aa9947664713190f786bbacb1a918904d3c6d1fb714c74e4cbae9eac4895",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/curve_fui.bytes"        : {
+      "Id" : 11,
+      "ArtConfigIdx" : 12,
+      "Type"         : 1,
+      "ABName"       : "1491a41f831800046b9c30249d433b41",
+      "ReferenceCount" : 0,
+      "Hash"           : "433f633ac167691b49c8e7cfa1472915a3191a340bd1b0e7dc13d1ea730d7cda",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/cutscene_atlas0.png"    : {
+      "Id" : 12,
+      "ArtConfigIdx" : 13,
+      "Type"         : 0,
+      "ABName"       : "a36546a3cdbd54545a7e3b3a19fdbc1d",
+      "ReferenceCount" : 0,
+      "Hash"           : "8c795d711a4ab933f07e32d01e8ef383dd9ebe6fb2d61bf9553e3f3dfc0adca5",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/cutscene_fui.bytes"     : {
+      "Id" : 13,
+      "ArtConfigIdx" : 14,
+      "Type"         : 1,
+      "ABName"       : "500db189abfc22748a2264f6b5f524e0",
+      "ReferenceCount" : 0,
+      "Hash"           : "761846c88f95a2bc38309af29d4e2792376c5426333ac78f51f8efe6c7951520",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/emitnumbers_atlas0.png" : {
+      "Id" : 14,
+      "ArtConfigIdx" : 15,
+      "Type"         : 0,
+      "ABName"       : "496fd05a716647f4db5e325a4e206417",
+      "ReferenceCount" : 0,
+      "Hash"           : "d91484e5ab998b9c57f30c273b1223a758004d3e0085faca5fde0ddbaafb5b01",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/emitnumbers_fui.bytes"  : {
+      "Id" : 15,
+      "ArtConfigIdx" : 16,
+      "Type"         : 1,
+      "ABName"       : "151b8e885ffae414bbfc1c181956c21a",
+      "ReferenceCount" : 0,
+      "Hash"           : "ce6ee7bae082b05a397ba5857cc13531872bbe1c3f3e77a8400a879f81338426",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/emoji_atlas0.png"       : {
+      "Id" : 16,
+      "ArtConfigIdx" : 17,
+      "Type"         : 0,
+      "ABName"       : "8617f50b01e9d7b48ab0ae2db092c2db",
+      "ReferenceCount" : 0,
+      "Hash"           : "c22a945a40bd3056643d7365205011c15e92ca97f8374fb0034925a72d73548e",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/emoji_fui.bytes"        : {
+      "Id" : 17,
+      "ArtConfigIdx" : 18,
+      "Type"         : 1,
+      "ABName"       : "e56a83a2309144341b84c8e4d86eeea6",
+      "ReferenceCount" : 0,
+      "Hash"           : "ff32e1f0c1b767e72d85544e7c29f2406b93ab3992ba9b40e693a635acc28789",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/extension_atlas0.png"   : {
+      "Id" : 18,
+      "ArtConfigIdx" : 19,
+      "Type"         : 0,
+      "ABName"       : "fa33dde1d8ede6f4f82b1075f1ae4766",
+      "ReferenceCount" : 0,
+      "Hash"           : "54d180531b3a54bf143a5e41cf381066bb504d41f4e9c390b2bc08002151e004",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/extension_fui.bytes"    : {
+      "Id" : 19,
+      "ArtConfigIdx" : 20,
+      "Type"         : 1,
+      "ABName"       : "897b8fb674a57394a948cd6757a69e6d",
+      "ReferenceCount" : 0,
+      "Hash"           : "d6d48ff1e1f26fe385428c2503360b6bc89b0fa6d70752697213ced9aa678ce8",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/filter_atlas0.png"      : {
+      "Id" : 20,
+      "ArtConfigIdx" : 21,
+      "Type"         : 0,
+      "ABName"       : "744a4a75becd220438d203dd65cf9eea",
+      "ReferenceCount" : 0,
+      "Hash"           : "02cb6b13998f8378c34e10f1bb0f1c759273e0a6c0d01af87c5cb8fa91c5356b",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/filter_fui.bytes"       : {
+      "Id" : 21,
+      "ArtConfigIdx" : 22,
+      "Type"         : 1,
+      "ABName"       : "0e11ff4dde9778a4c95421bc51c238cf",
+      "ReferenceCount" : 0,
+      "Hash"           : "39ba3143d8c345969e8495435c665b32cd497d3165df14b714be9cd2b2138807",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/gesture_fui.bytes"      : {
+      "Id" : 22,
+      "ArtConfigIdx" : 23,
+      "Type"         : 1,
+      "ABName"       : "3d9cc453eca910342b1bddb06a7cf019",
+      "ReferenceCount" : 0,
+      "Hash"           : "f33aa003e371a43a0c6f21e3de10d7891340224e78a2f59107338b462c17bf6d",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/guide_atlas0.png"       : {
+      "Id" : 23,
+      "ArtConfigIdx" : 24,
+      "Type"         : 0,
+      "ABName"       : "31769ff336fdcf6449ac967d24240e06",
+      "ReferenceCount" : 0,
+      "Hash"           : "61f1e346c975fc5c01b9819d7a520babba374b78384b1dfbcda604dca4402239",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/guide_fui.bytes"        : {
+      "Id" : 24,
+      "ArtConfigIdx" : 25,
+      "Type"         : 1,
+      "ABName"       : "0a753f07f57c9864c9cb7f749e4e600e",
+      "ReferenceCount" : 0,
+      "Hash"           : "79d74c3ad7254e52dcca0cbf67db28087fe36d09665bcbdace01c526c78d53fc",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/headbar_atlas0.png"     : {
+      "Id" : 25,
+      "ArtConfigIdx" : 26,
+      "Type"         : 0,
+      "ABName"       : "742fe6aadd36612409f3aed30069276f",
+      "ReferenceCount" : 0,
+      "Hash"           : "8c5979b58fb7806b407c2f056556e73e44593e93f570b172eb671086a6f09e5a",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/headbar_fui.bytes"      : {
+      "Id" : 26,
+      "ArtConfigIdx" : 27,
+      "Type"         : 1,
+      "ABName"       : "7fc30999edf6bf846bfe2365fe9afc0f",
+      "ReferenceCount" : 0,
+      "Hash"           : "12095bbb9050db9b159313b1ecda95c8971b21131d0b7659e3806a1a07aabb8b",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/hittest_atlas0.png"     : {
+      "Id" : 27,
+      "ArtConfigIdx" : 28,
+      "Type"         : 0,
+      "ABName"       : "74ce3116602b0fe488a1a69028f71cef",
+      "ReferenceCount" : 0,
+      "Hash"           : "a3994d358ffd6d8c94886a99dfaf6f98053f52544d9f1bf7df846a271f49ea2e",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/hittest_fui.bytes"      : {
+      "Id" : 28,
+      "ArtConfigIdx" : 29,
+      "Type"         : 1,
+      "ABName"       : "74daae33c58307f4fb2b08d72ca3dab0",
+      "ReferenceCount" : 0,
+      "Hash"           : "415c6b3d8c8ced00776530f83beef353b8b0d5041adc45f8fd71bd51793759b7",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/joystick_atlas0.png"    : {
+      "Id" : 29,
+      "ArtConfigIdx" : 30,
+      "Type"         : 0,
+      "ABName"       : "bc6fd94201858e9468f842aa12ebea3d",
+      "ReferenceCount" : 0,
+      "Hash"           : "c4dfa7b5caecdbdbe8c2871096824a55e5daed08c76fb54834115887cfdd46e5",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/joystick_fui.bytes"     : {
+      "Id" : 30,
+      "ArtConfigIdx" : 31,
+      "Type"         : 1,
+      "ABName"       : "d00455ccfa4224941a0bcdc7d3ffdf92",
+      "ReferenceCount" : 0,
+      "Hash"           : "ac6881b27ceec7ec51d3f27bd349c0fe24a2e812021942f19f5e6536e61a9819",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/looplist_atlas0.png"    : {
+      "Id" : 31,
+      "ArtConfigIdx" : 32,
+      "Type"         : 0,
+      "ABName"       : "c0eab5e3a7aa65c469e36bc3b93afcf1",
+      "ReferenceCount" : 0,
+      "Hash"           : "fb7a6ef264e617cd6988a5b271201d1866ae30f464600e85ac0a77a2cbbb095a",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/looplist_fui.bytes"     : {
+      "Id" : 32,
+      "ArtConfigIdx" : 33,
+      "Type"         : 1,
+      "ABName"       : "fcbd47b8357226848b9337d4b4f50f96",
+      "ReferenceCount" : 0,
+      "Hash"           : "2eca868b5aaac1e4e10cca6c37f193bb6f46b70e18f97ac43b212ca3281cafdf",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/modalwaiting_atlas0.png" : {
+      "Id" : 33,
+      "ArtConfigIdx" : 34,
+      "Type"         : 0,
+      "ABName"       : "e06e01d95ca1acf41890acc38528918b",
+      "ReferenceCount" : 0,
+      "Hash"           : "1dd13dd7b29493c60906e6e79dd7b2c33bd0f4b1416a801729c06134de323aeb",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/modalwaiting_fui.bytes"  : {
+      "Id" : 34,
+      "ArtConfigIdx" : 35,
+      "Type"         : 1,
+      "ABName"       : "6af757bd55a00ec439dd8e0400ae8fc0",
+      "ReferenceCount" : 0,
+      "Hash"           : "53fd473edf905784254ca9170a3dbb94fd6a4d505bf5c3eecd1b8ad9c6028c11",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/model_atlas0.png"        : {
+      "Id" : 35,
+      "ArtConfigIdx" : 36,
+      "Type"         : 0,
+      "ABName"       : "4bbb3174a8547f94fa01afb4f781a053",
+      "ReferenceCount" : 0,
+      "Hash"           : "b53e89bfbdf66b687c462fc217a1f810efd5457c2478a7626cda1af4dfd8620d",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/model_fui.bytes"         : {
+      "Id" : 36,
+      "ArtConfigIdx" : 37,
+      "Type"         : 1,
+      "ABName"       : "c122ae6a4de6799498b1103c5031d4f5",
+      "ReferenceCount" : 0,
+      "Hash"           : "436fb3f7795dce8e1605212d9396ff4da1fa38993453e5914fcb0430b9e117ec",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/particles_atlas0.png"    : {
+      "Id" : 37,
+      "ArtConfigIdx" : 38,
+      "Type"         : 0,
+      "ABName"       : "0c4f185320db4704b87f8abd2b79450b",
+      "ReferenceCount" : 0,
+      "Hash"           : "1296895ce4cc617b231360ac59e603d7e7dbbe95cc57d9a9b2e4d4af20ed2ab6",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/particles_fui.bytes"     : {
+      "Id" : 38,
+      "ArtConfigIdx" : 39,
+      "Type"         : 1,
+      "ABName"       : "1e77e1aa07910774d90dc5dcdb13c0b2",
+      "ReferenceCount" : 0,
+      "Hash"           : "885904ce43b94d278f119db2868fe1c8d1ec9eeb58ac0f02437bf56bff8540b7",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/perspective_atlas0.png"  : {
+      "Id" : 39,
+      "ArtConfigIdx" : 40,
+      "Type"         : 0,
+      "ABName"       : "3481f927139eb1e4c95d4cadb6b85fe6",
+      "ReferenceCount" : 0,
+      "Hash"           : "8e49a766fca13bda79f29a7d9e092b3915abfbaee98af4a5b4464014677c083f",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/perspective_fui.bytes"   : {
+      "Id" : 40,
+      "ArtConfigIdx" : 41,
+      "Type"         : 1,
+      "ABName"       : "5149164ba63528c469beb207248385d3",
+      "ReferenceCount" : 0,
+      "Hash"           : "d1bc0313c6a70864eb4d38b5e5971cb6ae22d6f6db04c5dfcec6c29ce40f14d1",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/pulltorefresh_atlas0.png" : {
+      "Id" : 41,
+      "ArtConfigIdx" : 42,
+      "Type"         : 0,
+      "ABName"       : "34cda53e757ac6f4386c4940bb7db2f0",
+      "ReferenceCount" : 0,
+      "Hash"           : "1e0b3b25996f5d42860be83e8467c83207c721f937650e7b47da35aa3e2504b7",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/pulltorefresh_fui.bytes"  : {
+      "Id" : 42,
+      "ArtConfigIdx" : 43,
+      "Type"         : 1,
+      "ABName"       : "32dd16b0d60d98648bd56fffdd48639c",
+      "ReferenceCount" : 0,
+      "Hash"           : "53a35d9e14f0560a688eee36a5adae234fe903c9f226506b4f441b1718d1371d",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/rendertexture_atlas0.png" : {
+      "Id" : 43,
+      "ArtConfigIdx" : 44,
+      "Type"         : 0,
+      "ABName"       : "68c62ff1ca2781640b7339edb16cbc59",
+      "ReferenceCount" : 0,
+      "Hash"           : "7819a9b7951099d94c7ed0b12c070ae0a4338452c1fa3e2f0ffaefc26871411a",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/rendertexture_fui.bytes"  : {
+      "Id" : 44,
+      "ArtConfigIdx" : 45,
+      "Type"         : 1,
+      "ABName"       : "cc336e656eac32b468fb653bf34166fc",
+      "ReferenceCount" : 0,
+      "Hash"           : "d7609802b5e7cbb9930c101ee95cc4ae5574c3331c6636bf7d52647db5ccb2a5",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/scrollpane_atlas0.png"    : {
+      "Id" : 45,
+      "ArtConfigIdx" : 46,
+      "Type"         : 0,
+      "ABName"       : "2f12934d89000bf4394811312cccdae1",
+      "ReferenceCount" : 0,
+      "Hash"           : "717c389d2385a2c882a7fdfe6d102914daba3b3ac9004e986f0f8e03ca0e42ff",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/scrollpane_fui.bytes"     : {
+      "Id" : 46,
+      "ArtConfigIdx" : 47,
+      "Type"         : 1,
+      "ABName"       : "d81f9661656878943a5597aa5602f0e5",
+      "ReferenceCount" : 0,
+      "Hash"           : "60397aa01613c75d7feaabc107dfc2d445fcfb4afec26f498abbe2ea3e67c99f",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/transition_atlas0.png"    : {
+      "Id" : 47,
+      "ArtConfigIdx" : 48,
+      "Type"         : 0,
+      "ABName"       : "860d3a3f35c4ae24faadd9fe8b1abb0b",
+      "ReferenceCount" : 0,
+      "Hash"           : "c49b97a7597c3ea2bf135661e60cf44bcd622a1358df27319206d67bc510858e",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/transition_fui.bytes"     : {
+      "Id" : 48,
+      "ArtConfigIdx" : 49,
+      "Type"         : 1,
+      "ABName"       : "3886766f6b80f7342b6babc1077322ec",
+      "ReferenceCount" : 0,
+      "Hash"           : "d8b998fb208615870ad33e5780208373fa989d28db82203719a055bcfd6d31ca",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/transition_gkq03.wav"     : {
+      "Id" : 49,
+      "ArtConfigIdx" : 50,
+      "Type"         : 2,
+      "ABName"       : "501aa6caa59f01a459c9612db3e69356",
+      "ReferenceCount" : 0,
+      "Hash"           : "1c96aa31b6162bf15c9938e90ccde2ff2c8af90b2730254c5bac64d9cb5cd40a",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/treeview_atlas0.png"      : {
+      "Id" : 50,
+      "ArtConfigIdx" : 51,
+      "Type"         : 0,
+      "ABName"       : "eaf137214b2f09f479f9431f59c9c630",
+      "ReferenceCount" : 0,
+      "Hash"           : "e16bb9c35f771afb20032fce3a902eae50a4307e21b30dc7b392c63b9bd3f2a9",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/treeview_fui.bytes"       : {
+      "Id" : 51,
+      "ArtConfigIdx" : 52,
+      "Type"         : 1,
+      "ABName"       : "e0c8bc3b92cafac4294d5cf1ac1789ee",
+      "ReferenceCount" : 0,
+      "Hash"           : "e62b6f5a59b81b1af3479f27db2d09dde803db971802eb600124118e491c04e2",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/turncard_atlas0.png"      : {
+      "Id" : 52,
+      "ArtConfigIdx" : 53,
+      "Type"         : 0,
+      "ABName"       : "acb09606242d0064a8d4f6dc76afff08",
+      "ReferenceCount" : 0,
+      "Hash"           : "166acb62707ec5ffca7a0d46fd9b5ba16de201edf5ad53cf73b3cd0269ec589a",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/turncard_fui.bytes"       : {
+      "Id" : 53,
+      "ArtConfigIdx" : 54,
+      "Type"         : 1,
+      "ABName"       : "67873aca8fe578642bc4f98e3e87f305",
+      "ReferenceCount" : 0,
+      "Hash"           : "cbaa15ade39e74ca3cd9febdc0b7010d964d3d6e121dc355a33d19f764262325",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/turnpage_atlas0.png"      : {
+      "Id" : 54,
+      "ArtConfigIdx" : 55,
+      "Type"         : 0,
+      "ABName"       : "ea799e3597d25a946b26a57119b2085c",
+      "ReferenceCount" : 0,
+      "Hash"           : "752a880aafe2538774be739787dfd7fce2641f8cec157a9ceda84d14c2745480",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/turnpage_fui.bytes"       : {
+      "Id" : 55,
+      "ArtConfigIdx" : 56,
+      "Type"         : 1,
+      "ABName"       : "01e26cac70d596645900eb742a16bd63",
+      "ReferenceCount" : 0,
+      "Hash"           : "35ba8379448df6a4c8738e08b19fcff45cd87c775de15abf279e846c37abfdf0",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/typingeffect_atlas0.png"  : {
+      "Id" : 56,
+      "ArtConfigIdx" : 57,
+      "Type"         : 0,
+      "ABName"       : "6f5b2be7a1b32134094201f06328d94f",
+      "ReferenceCount" : 0,
+      "Hash"           : "72476970abfcc8a65433f59229923974d9053be5d14e46009601d185ae5a9919",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/typingeffect_fui.bytes"   : {
+      "Id" : 57,
+      "ArtConfigIdx" : 58,
+      "Type"         : 1,
+      "ABName"       : "af1d21f18356796438f0665b81c17ccc",
+      "ReferenceCount" : 0,
+      "Hash"           : "2f5cf3b4f0742970d3e7f950d3688d63ba239bbbd17a159c62e8f59dd809bd8f",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/virtuallist_atlas0.png"   : {
+      "Id" : 58,
+      "ArtConfigIdx" : 59,
+      "Type"         : 0,
+      "ABName"       : "94b68138448747440bf7971a46cdc6c2",
+      "ReferenceCount" : 0,
+      "Hash"           : "9de393a5c847e17b6b00da5dfc02e3369f02db53a55d3cf3d8cc2da3df6de708",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairygui/virtuallist_fui.bytes"    : {
+      "Id" : 59,
+      "ArtConfigIdx" : 60,
+      "Type"         : 1,
+      "ABName"       : "c464b33741c901648b43908eb52ac32c",
+      "ReferenceCount" : 0,
+      "Hash"           : "19481b0584a653494b8351ee4d166f2b828647eab240146b21b56ad77b9c0911",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/fairyguiroot.prefab"               : {
+      "Id" : 60,
+      "ArtConfigIdx" : 61,
+      "Type"         : 3,
+      "ABName"       : "f115f8a03c033c84986338d41b8895a2",
+      "ReferenceCount" : 0,
+      "Hash"           : "4d8505450eccb95c9d4b2fb2b490588a2a6ed50cd265108631b592eefa3eabfd",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/fairyguiresource/runtime/uflux/window_guide.prefab"         : {
+      "Id" : 61,
+      "ArtConfigIdx" : 62,
+      "Type"         : 3,
+      "ABName"       : "c216a3748783bcf46a45e61d764e43b2",
+      "ReferenceCount" : 0,
+      "Hash"           : "330c6ce3e2fccfb8c602018e2b02a67a7d4ecc505e16affc2108bb7b6ee2c74e",
+      "DependAssetList" : [
+      ]
+    },
+    "assets/resource/runtime/shader/allshaders.shadervariants"          : {
+      "Id" : 62,
+      "ArtConfigIdx" : 63,
+      "Type"         : 4,
+      "ABName"       : "112b262ac7d66de40978618ea3912e39",
+      "ReferenceCount" : 0,
+      "Hash"           : "98d4ade3c245c278834adc8bd618e39941059a9d393eee52f7118d1700e1ed37",
+      "DependAssetList" : [
+      ]
+    }
+  }
+}

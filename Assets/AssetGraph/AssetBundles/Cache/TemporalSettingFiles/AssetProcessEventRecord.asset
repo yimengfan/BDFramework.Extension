@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d9a5f17c54584a67b7fe58665965f15, type: 3}
+  m_Name: AssetProcessEventRecord
+  m_EditorClassIdentifier: 
+  m_events:
+  - m_kind: 1
+    m_timestampUtc: 132868873081890117
+    m_assetName: 
+    m_assetGuid: 
+    m_graphGuid: 48d3455260f25b242ba46325b82b68f1
+    m_nodeId: 5c54f429-2e9d-45d5-ad93-29577e3649bb
+    m_nodeName: "\u6253\u5305AssetBundle"
+    m_description: System.InvalidOperationException:Building AssetBundles while in
+      play mode is not allowed, please exit play mode first.
+    m_howToFix: See Console for detail.
+  - m_kind: 1
+    m_timestampUtc: 132868873269819436
+    m_assetName: 
+    m_assetGuid: 
+    m_graphGuid: 48d3455260f25b242ba46325b82b68f1
+    m_nodeId: 5c54f429-2e9d-45d5-ad93-29577e3649bb
+    m_nodeName: "\u6253\u5305AssetBundle"
+    m_description: System.InvalidOperationException:Building AssetBundles while in
+      play mode is not allowed, please exit play mode first.
+    m_howToFix: See Console for detail.
+  - m_kind: 1
+    m_timestampUtc: 132868873466564621
+    m_assetName: 
+    m_assetGuid: 
+    m_graphGuid: 48d3455260f25b242ba46325b82b68f1
+    m_nodeId: 5c54f429-2e9d-45d5-ad93-29577e3649bb
+    m_nodeName: "\u6253\u5305AssetBundle"
+    m_description: System.InvalidOperationException:Building AssetBundles while in
+      play mode is not allowed, please exit play mode first.
+    m_howToFix: See Console for detail.
+  m_errorEventCount: 3
+  m_infoEventCount: 0
+  m_version: 1
+  m_processStartIndex: 0

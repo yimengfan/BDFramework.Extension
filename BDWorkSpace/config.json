@@ -1,0 +1,33 @@
+
+{
+  "pageType" : 0,
+  "WorkFollow" : {
+    "HotfixCodeFloderType" : 0,
+    "IsAutoBuildDll"       : false,
+    "AssetBundleSVNUrl"    : "http://127.0.0.1:20001",
+    "AssetBundleSVNAccount" : "root",
+    "AssetBundleSVNPsw"     : "root"
+  },
+  "BuildAssetBundle" : {
+  },
+  "Android"          : {
+    "keystoreName" : null,
+    "keystorePass" : null,
+    "keyaliasName" : null,
+    "keyaliasPass" : null
+  },
+  "IOSConfig"        : {
+    "test" : null,
+    "test2" : null
+  },
+  "AndroidDebug"     : {
+    "keystoreName" : null,
+    "keystorePass" : null,
+    "keyaliasName" : null,
+    "keyaliasPass" : null
+  },
+  "IOSConfigDebug"   : {
+    "test" : null,
+    "test2" : null
+  }
+}
